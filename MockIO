@@ -23,8 +23,7 @@ public class MockIO implements IO {
 	//
 	/**
 	 * Ask for input from the current input location, displaying the specified prompt
-	 * to the current output location. If the MockIO object is testing against expected
-	 * input, and the supplied value does not match, then an exception will be thrown.
+	 * to the current output location. 
 	 * @param prompt A string prompting for the input.
 	 * @return A string as supplied from the current input location.
 	 */
